@@ -7,11 +7,8 @@ Here we implement a single layer neural network on this data. The theory and acc
 
 The code   `MNISTslnn.py`  should be executed after unzipping the data files obtained from above link.
 
-Parameters that can be changed in the code are: 
-
-`L` is the number of neurons in the hidden layer.
-
-`lrnRt` is the learning rate.
-
+Parameters that can be changed in the code are:  
+`L` is the number of neurons in the hidden layer.  
+`lrnRt` is the learning rate.  
 `Epochs` is the number of epochs for which training should be performed.
 
