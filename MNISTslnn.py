@@ -1,7 +1,8 @@
 # GET THE DATA
 import numpy as np
-# mnist2numpy.py is an altered version of http://g.sweyla.com/blog/2012/mnist-numpy/ 
 with open("mnist2numpy.py") as f:
+    # the function mnist2numpy.py is an altered version of 
+    # the one available at http://g.sweyla.com/blog/2012/mnist-numpy/ 
     code = compile(f.read(), "mnist2numpy.py", 'exec')
     exec(code)
 Xtrain, Ytrain = load_mnist(dataset="training", digits=np.arange(10), path=".")
