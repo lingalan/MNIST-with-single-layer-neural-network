@@ -1,5 +1,5 @@
 # MNIST-with-single-layer-neural-network
-Implements single layer neural network on MNIST data
+Implements a single-layer neural-network on MNIST data
 
 [MNIST](https://en.wikipedia.org/wiki/MNIST_database) database of handwritten digits can be downloaded from [this link](http://yann.lecun.com/exdb/mnist/). The training data consists of 60000 images of size 24x24 pixels with lables being the 10 digits. Goal is to predict the labels for the 10000 images of test data.
 
